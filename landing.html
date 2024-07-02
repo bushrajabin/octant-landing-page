@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- This link for Normal CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- This is for Media Query -->
+    <link rel="stylesheet" href="./mediaQuery.css" />
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="./images/octant.png" alt="">
+      </div>
+      <div class="collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav" id="navbar-nav-links">
+          <!-- secondery menu start -->
+          <li class="nav-item has_dropdown">
+            <a class="nav-link">Home</a>
+            <span class="drp_btn"><i class="icofont-rounded-down"></i></span>
+            <div class="sub_menu">
+              <ul>
+                <li>
+                  <a>Home 1 </a>
+                </li>
+                <li>
+                  <a> Home 2 </a>
+                </li>
+                <li>
+                  <a>Home 3</a>
+                </li>
+                <li>
+                  <a>Home 4</a>
+                </li>
+                <li>
+                  <a>Home 5</a>
+                </li>
+                <li>
+                  <a>Home 6</a>
+                </li>
+                <li>
+                  <a>Home 7</a>
+                </li>
+                <li>
+                  <a>Home 8</a>
+                </li>
+                <li>
+                  <a>Home 9</a>
+                </li>
+                <li>
+                  <a>Home 10</a>
+                </li>
+                <li>
+                  <a>Home 11</a>
+                </li>
+                <li>
+                  <a>Home 12</a>
+                </li>
+                <li>
+                  <a>Home 13</a>
+                </li>
+                <li>
+                  <a>Home 14</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- secondery menu end -->
+
+          <li class="nav-item">
+            <a class="nav-link">About us</a>
+          </li>
+          <!-- secondery menu start -->
+          <li class="nav-item has_dropdown">
+            <a class="nav-link">Pages</a>
+            <span class="drp_btn"><i class="icofont-rounded-down"></i></span>
+            <div class="sub_menu">
+              <ul>
+                <li>
+                  <a href="Blogpage.html">Blog List</a>
+                </li>
+                <li>
+                  <a href="singleBlog.html">Single Blog</a>
+                </li>
+                <li>
+                  <a href="SignInForm.html">Sign In</a>
+                </li>
+                <li>
+                  <a href="./signUpForm.html">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- secondery menu end -->
+
+          <li class="nav-item">
+            <a class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <div class="btn_block">
+              <a class="nav-link dark_btn" href="contact.html">Download</a>
+              <div class="btn_bottom"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="menuIcon" onclick="showLinks('open')">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </nav>
+    <div class="hero-Part" id="hero_part">
+      <div class="left-side">
+        <div class="hero-left">
+          <h1>Lead generation mobile app landing page</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing indus orem Ipsum
+            has been the industrys.
+          </p>
+        </div>
+        <div class="hero-right">
+          <div class="right-images">
+            <img src="./Images/banavt1.png" alt="" />
+            <img src="./Images/banavt2.png" alt="" />
+            <img src="./Images/banavt3.png" alt="" />
+            <img src="./Images/play.png" alt="" />
+          </div>
+
+          <div class="hero-texts">
+            <h2>12M + Active users</h2>
+            <p>The best application to manage your customer worldwide</p>
+            <a href="contact.html"
+              ><button class="btn2">Start Free Trial</button></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <img src="./Images/hero_image.png" alt="" />
+      </div>
+    </div>
+      <button href="" class="next-round">&#8250;</button>
+      </div>
+    </div> --
+    <!-- SERVCES PAGE -->
+    <div class="service-main-container">
+      <div class="service-top-part">
+        <button>Service</button>
+        <h2>Premium <span>services </span> of our application</h2>
+      </div>
+      <div class="service-card">
+        <div class="service-1">
+          <div class="left-service-1">
+            <button class="manage-btn">
+              <i class="fa-solid fa-calendar-day"></i>Task Manage
+            </button>
+            <h2><span>Task creation</span>& manage lorem ipsum dollar</h2>
+            <p class="p_1">
+              Lorem Ipsum is simply dummy text of the printing and typtting
+              industry lorem Ipsum has been the industrys standard dummy text
+              ever since.
+            </p>
+
+            <div class="headings">
+              <i class="fa-solid fa-circle-check"></i>
+              <h2>Automate all task</h2>
+            </div>
+            <p class="p_2">
+              Lorem Ipsum is simply dummy text of the printing and setting
+              industry.
+            </p>
+            <div class="headings">
+              <i class="fa-solid fa-circle-check"></i>
+              <h2>Get notify lorem</h2>
+            </div>
+            <p class="p_3">
+              Dummy text of the printing and typesetting industry lorem Ipsum
+              has been the.
+            </p>
+
+            <button class="Trial-button">Start free Trial</button>
+          </div>
+          <div class="right-service-1">
+            <img src="Images/service_1.png" alt="" />
+          </div>
+        </div>
+        <div class="service-2">
+          <div class="right-service-2">
+            <img src="./Images/service_2.png" alt="" />
+          </div>
+          <div class="left-service-2">
+            <button class="meeting-btn">
+              <i class="fa-regular fa-clock"></i>Schedule Meeting
+            </button>
+            <h2><span>Manage project </span>and track lorem</h2>
+            <p class="p_4">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry lorem Ipsum has been the industrys standard dummy.
+            </p>
+            <p class="p_5">
+              <i class="fa-regular fa-circle-check"></i>Lorem Ipsum is simply
+              dummy text
+            </p>
+            <p class="p_6">
+              <i class="fa-regular fa-circle-check"></i>The printing and
+              typesetting industry
+            </p>
+            <p class="p_7">
+              <i class="fa-regular fa-circle-check"></i>Has been the industrys
+              dummy
+            </p>
+            <button class="Trial-button">start Free Trial</button>
+          </div>
+        </div>
+        <div class="service-3">
+          <div class="left-service-3">
+            <button class="history-btn">
+              <i class="fa-solid fa-book"></i>History
+            </button>
+            <h2><span>Task creation </span>& manage lorem ipsum dollar</h2>
+            <p class="p_8">
+              Lorem Ipsum is simply dummy text of the printing and typtting
+              industry lorem Ipsum has been the industrys standard dummy text
+              ever since.
+            </p>
+            <p class="p_9">
+              <i class="fa-regular fa-circle-check"></i>Lorem Ipsum is simply
+              dummy text
+            </p>
+            <p class="p_10">
+              <i class="fa-regular fa-circle-check"></i>The printing and
+              typesetting industry lorem
+            </p>
+            <p class="p_11">
+              <i class="fa-regular fa-circle-check"></i>Has been the industrys
+              dummy
+            </p>
+            <button class="Trial-button">start Free Trial</button>
+          </div>
+
+          <div class="right-service-3">
+            <img src="./Images/service_3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Working page start From Here -->
+    <div class="work-main-contianer">
+      <div class="working-top-page">
+        <button>Quick & easy</button>
+        <h1>How it works in 3 steps</h1>
+      </div>
+
+      <div class="working-botto-page">
+        <div class="page-1">
+          <img src="./Images/play.png" alt="" />
+          <h1>Download app</h1>
+          <div class="fav-icons">
+            <i class="fa-brands fa-android"></i>
+            <i class="fa-brands fa-windows"></i>
+            <i class="fa-brands fa-apple"></i>
+          </div>
+          <p>Download App. It will work for Android, Mac & Windows</p>
+        </div>
+        <div class="page-2">
+          <img src="./Images/account.png" alt="" />
+          <h1>Create Account</h1>
+          <h4>Free for 14 days</h4>
+          <p>Our app is FREE for 14 days, Sign up free for trial period</p>
+        </div>
+        <div class="page-3">
+          <img src="./Images/like.png" alt="" />
+          <h1>Enjoy the app</h1>
+          <h4>Read FAQs for any query</h4>
+          <p>Enjoy our app & share most amazing app experience</p>
+        </div>
+      </div>
+      <a href="contact.html"><button class="btn3">Get Started Now</button></a>
+    </div>
+    <!-- CIENTS -->
+    <div class="clients-main-container">
+      <div class="clients-top-part">
+        <button>Our Clients</button>
+        <h2>3500+ companies</h2>
+        <h3>Using our application</h3>
+      </div>
+      <div class="clients-bottom-container">
+        <img src="./Images/paypal.png" alt="" />
+        <img src="./Images/spoty.png" alt="" />
+        <img src="./Images/shopboat.png" alt="" />
+        <img src="./Images/slack.png" alt="" />
+        <img src="./Images/envato.png" alt="" />
+        <img src="./Images/jquery.png" alt="" />
+        <img src="./Images/woocommerce.png" alt="" />
+        <img src="./Images/themeforest.png" alt="" />
+      </div>
+    </div>
+    <!-- App-Available -->
+
+    <div class="app-main-container">
+      <div class="app-left">
+        <button>Download</button>
+        <h1>Our app is available for Android & iOS</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing indus orem Ipsum has
+          been the industrys.
+        </p>
+        <div class="download">
+          <button class="app-1">
+            <i class="fa-brands fa-google-play"></i>
+            <div class="span-1">
+              GET IT ON <br />
+              <span>Google Play</span>
+            </div>
+          </button>
+          <button class="app-2">
+            <i class="fa-brands fa-apple"></i>
+            <div class="span-2">
+              Download on the <br />
+              <span>App Store</span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="app-right">
+        <img src="./Images/our_app.png" alt="" />
+      </div>
+    </div>
+    <!-- Blog Page Start From HERE -->
+    <div class="blog-main-contaner">
+      <div class="blog-top-container">
+        <button>Latest updates</button>
+        <h2>Our laest <span>blog post</span></h2>
+      </div>
+
+      <div class="blog-images-container">
+        <div class="blog-1">
+          <img src="./Images/blog1.png" alt="" />
+          <p>May 12, 2023 | Mobile app | 5 Comments</p>
+          <h3>Effective ways to monetize mobile apps for better perfomance</h3>
+          <div class="buttons">
+            <button>Mobile app</button>
+            <a href="#hero_part"
+              ><h4>Read more <i class="fa-solid fa-arrow-right"></i></h4
+            ></a>
+          </div>
+        </div>
+        <div class="blog-2">
+          <img src="./Images/blog2.png" alt="" />
+          <p>May 12, 2023 | Mobile app | 5 Comments</p>
+          <h3>Why you our app, top 5 reason to choose our app</h3>
+          <div class="buttons">
+            <button>User experience</button>
+            <a href="#hero_part"
+              ><h4>Read more <i class="fa-solid fa-arrow-right"></i></h4
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER PAGE START FROM HERE -->
+    <div class="footer-container">
+      <div class="footer-top-side">
+        <div class="footer-left-side">
+          <img src="./Images/octant.png" alt="" />
+          <h2>Subscribe newsletter</h2>
+          <p>Be the first to recieve all latest post in your inbox</p>
+          <h1>
+            <input type="email" placeholder="Enter your email" /><i
+              class="fa-brands fa-telegram"
+            ></i>
+          </h1>
+          <h5>By clicking send link you agree to receive message.</h5>
+          <h4>support@example.com | +1-900-123 4567</h4>
+          <div class="social-links">
+            <a href="#hero_part"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#hero_part"><i class="fa-brands fa-twitter"></i> </a>
+            <a href="#hero_part"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#hero_part"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+        <div class="footer-right-side">
+          <h2>Download app</h2>
+          <div class="footer-app">
+            <button class="footer-app-1">
+              <i class="fa-brands fa-google-play"></i>
+              <div class="footer-right-1">
+                GET IT ON <br />
+                <span>Google Play</span>
+              </div>
+            </button>
+            <button class="footer-app-2">
+              <i class="fa-brands fa-apple"></i>
+              <div class="footer-right-2">
+                Download on the <br />
+                <span>App Store</span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-page">
+          <p>© Copyrights 2023. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="">Home |</a>
+            <a href="">About us |</a>
+            <a href="">Pricing |</a>
+            <a href=""> Blog |</a>
+            <a href="">Contact us</a>
+          </div>
+
+          <h4>
+            Crafted by
+            <a
+              href="https://themeforest.net/user/kalanidhithemes"
+              target="_blank"
+              >Kalanidhi Themes</a
+            >
+          </h4>
+        </div>
+      </div>
+    </div>
+      </div>
+      </div> 
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
